@@ -7,23 +7,6 @@ const getApi = (payload) => ({
   data: payload,
 });
 
-const initialState = [{
-  cityName: 'New york',
-  id: 5125125,
-  cityCountry: 'US',
-  cityImage: 'https://static.anuevayork.com/wp-content/uploads/2020/06/16084125/Guia-de-Nueva-York-en-espanol-Empire-State-Building-scaled.jpg',
-}, {
-  cityName: 'mumbai',
-  id: 5125126,
-  cityCountry: 'US',
-  cityImage: 'https://static.anuevayork.com/wp-content/uploads/2020/06/16084125/Guia-de-Nueva-York-en-espanol-Empire-State-Building-scaled.jpg',
-}, {
-  cityName: 'paris',
-  id: 5125127,
-  cityCountry: 'US',
-  cityImage: 'https://static.anuevayork.com/wp-content/uploads/2020/06/16084125/Guia-de-Nueva-York-en-espanol-Empire-State-Building-scaled.jpg',
-}];
-
 // Asynchronous action
 /* eslint-disable prefer-destructuring */
 
@@ -31,12 +14,54 @@ export const getApiData = () => async (dispatch) => {
   const listOfCities = [{
     cityName: 'New york',
     cityImage: 'https://static.anuevayork.com/wp-content/uploads/2020/06/16084125/Guia-de-Nueva-York-en-espanol-Empire-State-Building-scaled.jpg',
-  }, {
-    cityName: 'mumbai',
-    cityImage: 'https://static.anuevayork.com/wp-content/uploads/2020/06/16084125/Guia-de-Nueva-York-en-espanol-Empire-State-Building-scaled.jpg',
-  }, {
-    cityName: 'paris',
-    cityImage: 'https://static.anuevayork.com/wp-content/uploads/2020/06/16084125/Guia-de-Nueva-York-en-espanol-Empire-State-Building-scaled.jpg',
+  },
+  {
+    cityName: 'Los Angeles',
+    cityImage: 'https://cdn.britannica.com/22/154122-050-B1D0A7FD/Skyline-Los-Angeles-California.jpg',
+  },
+  {
+    cityName: 'Mumbai',
+    cityImage: 'https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg',
+  },
+  {
+    cityName: 'Paris',
+    cityImage: 'https://media.cntraveler.com/photos/5cf96a9dd9fb41f17ed08435/master/pass/Eiffel%20Tower_GettyImages-1005348968.jpg',
+  },
+  {
+    cityName: 'London',
+    cityImage: 'https://a.cdn-hotels.com/gdcs/production27/d274/43014cca-c88c-4061-ace8-58edc24531ee.jpg?impolicy=fcrop&w=800&h=533&q=medium',
+  },
+  {
+    cityName: 'Madrid',
+    cityImage: 'https://media.istockphoto.com/photos/madrid-spain-on-gran-via-picture-id1297090032?k=20&m=1297090032&s=170667a&w=0&h=Qa_DyLiwIcrWwiV_jQp9pLM2yCDuymqwveCbLOsdWjY=',
+  },
+  {
+    cityName: 'Barcelona',
+    cityImage: 'https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFyY2Vsb25hJTIwY2l0eXxlbnwwfHwwfHw%3D&w=1000&q=80',
+  },
+  {
+    cityName: 'Berlin',
+    cityImage: 'https://media.istockphoto.com/photos/berlin-skyline-with-spree-river-at-sunset-germany-picture-id486585530?k=20&m=486585530&s=612x612&w=0&h=FnNkM2BgTNv5-WQUpT2iB5R_0YSeW32RnLP7FYzOVVY=',
+  },
+  {
+    cityName: 'Roma',
+    cityImage: 'https://thumbs.dreamstime.com/b/roma-coloseum-13859340.jpg',
+  },
+  {
+    cityName: 'El cairo',
+    cityImage: 'https://media.informabtl.com/wp-content/uploads/2019/05/a8cac080-el-cairo.jpg',
+  },
+  {
+    cityName: 'Beijing',
+    cityImage: 'https://www.tripsavvy.com/thmb/LkZ9tuEaT2CgpFUJRZ0R73yJbh0=/2119x1192/smart/filters:no_upscale()/beijing-central-business-district-buildings-skyline--china-cityscape-477749918-ddee5166b7474fd881b53f87244cc6d2.jpg',
+  },
+  {
+    cityName: 'Tokio',
+    cityImage: 'https://ep01.epimg.net/elviajero/imagenes/2020/04/30/actualidad/1588237365_988791_1588237524_noticia_normal.jpg',
+  },
+  {
+    cityName: 'Seoul',
+    cityImage: 'https://www.webuildvalue.com/wp-content/uploads/seoul-megacity-crescita-sostenibile.jpg',
   }];
   const cities = await Promise.all(listOfCities.map(async (city) => {
     const searchName = city.cityName.replace(/ /g, '+');
@@ -72,7 +97,7 @@ export const getApiData = () => async (dispatch) => {
 };
 
 // Reducer
-const CityWeather = (state = initialState, action) => {
+const CityWeather = (state = [], action) => {
   switch (action.type) {
     case GETDATA:
       return action.data;
