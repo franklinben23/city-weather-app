@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import CityList from './components/CityList';
-// import CityDetail from './components/CityDetails';
+import CityDetails from './components/CityDetails';
 import Header from './components/Header';
 
 import './App.css';
@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<CityList />} />
-        {/* <Route path="/Details" element={<CityDetail />}>
-          <Route path=":cityName" element={<CityDetail />} />
-        </Route> */}
+        <Route path="/Details" element={<CityDetails />}>
+          <Route path=":cityName" element={<CityDetails />} />
+        </Route>
       </Routes>
     </div>
   );
