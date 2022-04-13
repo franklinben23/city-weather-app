@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Mission Testing Mission component snapshot 1`] = `
+<div
+  className="city-card"
+>
+  <div
+    className="image-cont"
+  >
+    <img
+      alt="city-weather"
+      className="city-img"
+      src="https://imgur.com/DaCfMsj.jpg"
+    />
+  </div>
+  <p
+    className="city-span"
+  >
+     
+    TEST ROCKET
+    :
+     
+    TEST DESCRIPTION
+  </p>
+</div>
+`;

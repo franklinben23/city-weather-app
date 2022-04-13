@@ -1,14 +1,7 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 import { RiFahrenheitFill } from 'react-icons/ri';
-import './cityDetails.css';
-
-const CityDetails = () => {
-  const params = useParams();
-  const specificCity = params.cityName;
-  const cities = useSelector((state) => state.cityWeathers);
-  const city = cities.find((city) => city.cityName === specificCity);
+/*This will be used to recreate the component by passing a prop rather than taking the info from the browser */
+const CityDetailsM = (city) => {
   return (
     <div className="details-section">
       <div className="details-image">
@@ -60,4 +53,4 @@ const CityDetails = () => {
   );
 };
 
-export default CityDetails;
+export default CityDetailsM;
