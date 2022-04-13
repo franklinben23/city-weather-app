@@ -1,3 +1,28 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Apple Financial Statements
+
+> This is an application built to take a look at Apple's financial statements from the past 5 years
+
+![screenshot](./screenshot.png)
+
+![screenshot](./screenshot2.png)
+
+## Built With
+
+- JavaScript, HTML, CSS
+- React/Redux
+
+## Running Project Locally
+
+To run the project locally make sure you run this command on your terminal
+
+`https://github.com/franklinben23/city-weather-app.git`
+
+## Live Demo 🔍
+
+To check this app's live demo click [here](https://citylist-franklin23.herokuapp.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +30,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the required dependencies in order to run the project.
 
 ### `npm start`
 
@@ -39,32 +68,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Franklin Benjamin**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [franklinben23](https://github.com/franklinben23)
+- Twitter: [@franklin23](https://twitter.com/Franklin23)
+- LinkedIn: [Franklin Benjamin](www.linkedin.com/in/franklinbenjamin)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Microverse
+- Nelson Sakwa for the inspiration for the design
+- Data provided by [Open Weather API](https://openweathermap.org/api)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.

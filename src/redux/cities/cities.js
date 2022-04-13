@@ -96,7 +96,6 @@ export const getApiData = () => async (dispatch) => {
     };
     return { ...city, ...newData };
   }));
-  console.log(cities);
   dispatch(getApi(cities));
 };
 
