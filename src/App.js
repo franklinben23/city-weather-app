@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import CityList from './components/CityList';
 import CityDetails from './components/CityDetails';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path=":cityName" element={<CityDetails />} />
         </Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
