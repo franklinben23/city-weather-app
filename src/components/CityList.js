@@ -23,13 +23,13 @@ const CityList = () => {
     if (searchCity === '') {
       return city;
     }
-    if (city.cityName.includes(searchCity)) {
+    if (city.cityName.toLowerCase().includes(searchCity.toLowerCase())) {
       return city;
     }
   }).map((c) => (<NavLink className="list-group-item" id={c.id} key={c.cityName} to={`/Details/${c.cityName}`}><CityCard cityImage={c.cityImage} cityCountry={c.cityCountry} cityName={c.cityName} /></NavLink>));
 
   return (
-    <div>
+    <div className="main-div">
       <div className="filter-span">
         <form className="filter-form" onSubmit={searchFunc}>
           <input type="text" placeholder="select specific city..." ref={inputRef} className="filter-text" />

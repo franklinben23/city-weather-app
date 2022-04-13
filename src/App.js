@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import CityList from './components/CityList';
 import CityDetails from './components/CityDetails';
 import Header from './components/Header';
-
 import './App.css';
 
 function App() {

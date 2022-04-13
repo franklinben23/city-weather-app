@@ -7,13 +7,13 @@ const CityCard = (props) => {
       <div className="image-cont">
         <img src={cityImage} alt="city-weather" className="city-img" />
       </div>
-      <h4 className="city-span">
+      <p className="city-span">
         {' '}
         {cityName}
         :
         {' '}
         {cityCountry}
-      </h4>
+      </p>
     </div>
   );
 };
