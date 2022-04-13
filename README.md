@@ -7,7 +7,7 @@
 ![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
 
 
-![screenshot](./screenshot2.png)
+![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
 
 ## Built With
 
