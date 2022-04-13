@@ -2,10 +2,10 @@
 
 # Apple Financial Statements
 
-> This is an application built to take a look at Apple's financial statements from the past 5 years
+> This is an application built to check the current weather in multiple cities all around the world
 
-(![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
-)
+![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
+
 
 ![screenshot](./screenshot2.png)
 
