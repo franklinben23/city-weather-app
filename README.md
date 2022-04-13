@@ -22,7 +22,7 @@ To run the project locally make sure you run this command on your terminal
 
 ## Live Demo 🔍
 
-To check this app's live demo click [here](https://citylist-franklin23.herokuapp.com/)
+To check this app's live demo click [here](https://citylist-franklin23.herokuapp.com/), then 'ctrl+shift+m' to see mobile view.
 
 # Getting Started with Create React App
 
