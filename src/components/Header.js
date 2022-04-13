@@ -7,8 +7,9 @@ const Header = () => (
       {/* maybe put an icon here later */}
       <NavLink to="/"> Home </NavLink>
     </nav>
-    <div className="nav-icon">
-      {/* import an icon later */}
+    <div className="nav-branding">
+      <div className="nav-brand-title"><h2>City Weather</h2></div>
+      <div className="nav-brand-icon"></div>
     </div>
   </header>
 );
