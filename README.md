@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Apple Financial Statements
+# City Weather App
 
 > This is an application built to check the current weather in multiple cities all around the world
 
