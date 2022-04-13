@@ -20,6 +20,10 @@ export const getApiData = () => async (dispatch) => {
     cityImage: 'https://cdn.britannica.com/22/154122-050-B1D0A7FD/Skyline-Los-Angeles-California.jpg',
   },
   {
+    cityName: 'Ciudad de Mexico',
+    cityImage: 'https://www.elsoldemexico.com.mx/metropoli/cdmx/58gppj-cdmx-dentro-de-las-100-mejores-ciudades-del-mundo.png/ALTERNATES/LANDSCAPE_1140/CDMX%20dentro%20de%20las%20100%20mejores%20ciudades%20del%20mundo.png',
+  },
+  {
     cityName: 'Mumbai',
     cityImage: 'https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg',
   },
@@ -44,8 +48,8 @@ export const getApiData = () => async (dispatch) => {
     cityImage: 'https://media.istockphoto.com/photos/berlin-skyline-with-spree-river-at-sunset-germany-picture-id486585530?k=20&m=486585530&s=612x612&w=0&h=FnNkM2BgTNv5-WQUpT2iB5R_0YSeW32RnLP7FYzOVVY=',
   },
   {
-    cityName: 'Roma',
-    cityImage: 'https://thumbs.dreamstime.com/b/roma-coloseum-13859340.jpg',
+    cityName: 'Milan',
+    cityImage: 'https://media.timeout.com/images/105186767/750/422/image.jpg',
   },
   {
     cityName: 'El cairo',

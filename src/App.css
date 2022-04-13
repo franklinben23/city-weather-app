@@ -12,6 +12,10 @@ a {
   color: white;
 }
 
+/* .footer {
+  margin-top: auto;
+} */
+
 .footer-h-cont {
   margin-inline: auto;
 }
@@ -44,7 +48,15 @@ a {
   align-items: center;
   background-color: #a8d0db;
   padding-bottom: 20px;
+  min-height: 90vh;
+  overflow: scroll;
 }
+
+/* body {
+  background-color: #a8d0db;
+  display: flex;
+  flex-direction: column;
+} */
 
 .filter-span {
   margin: 15px 0 15px 0;
