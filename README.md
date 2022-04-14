@@ -1,12 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Apple Financial Statements
+# City Weather App
 
-> This is an application built to take a look at Apple's financial statements from the past 5 years
+> This is an application built to check the current weather in multiple cities all around the world
 
-![screenshot](./screenshot.png)
+![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
 
-![screenshot](./screenshot2.png)
+
+![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
+
+## Video
+
+https://user-images.githubusercontent.com/68623189/163301050-e44ef27f-1e1c-4b57-9ac9-b53868af6846.mp4
 
 ## Built With
 
@@ -21,7 +26,7 @@ To run the project locally make sure you run this command on your terminal
 
 ## Live Demo 🔍
 
-To check this app's live demo click [here](https://citylist-franklin23.herokuapp.com/)
+To check this app's live demo click [here](https://citylist-franklin23.herokuapp.com/), then 'ctrl+shift+m' to see mobile view.
 
 # Getting Started with Create React App
 
