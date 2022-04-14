@@ -9,6 +9,10 @@
 
 ![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
 
+## Video
+
+https://user-images.githubusercontent.com/68623189/163301050-e44ef27f-1e1c-4b57-9ac9-b53868af6846.mp4
+
 ## Built With
 
 - JavaScript, HTML, CSS
