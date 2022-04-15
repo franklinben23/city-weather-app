@@ -52,11 +52,9 @@ a {
   overflow: scroll;
 }
 
-/* body {
-  background-color: #a8d0db;
-  display: flex;
-  flex-direction: column;
-} */
+.filter-tit {
+  display: none;
+}
 
 .filter-span {
   margin: 15px 0 15px 0;

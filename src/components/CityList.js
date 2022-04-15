@@ -1,17 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
 import CityCard from './CityCard';
-import { getApiData } from '../redux/cities/cities';
 
 const CityList = () => {
-  const cities = useSelector((state) => state.cityWeathers);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    if (cities.length === 0) {
-      dispatch(getApiData());
-    }
-  }, []);
   const [searchCity, setSearch] = useState('');
   const inputRef = useRef();
   const searchFunc = (e) => {
@@ -19,6 +11,7 @@ const CityList = () => {
     const inputVal = inputRef.current.value;
     setSearch(inputVal);
   };
+  const cities = useSelector((state) => state.cityWeathers);
   const searchResult = cities.filter((city) => { /*eslint-disable-line*/
     if (searchCity === '') {
       return city;
