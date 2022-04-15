@@ -6,7 +6,6 @@
 
 ![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
 
-
 ![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
 
 ## Video
@@ -20,9 +19,14 @@ https://user-images.githubusercontent.com/68623189/163301050-e44ef27f-1e1c-4b57-
 
 ## Running Project Locally
 
-To run the project locally make sure you run this command on your terminal
+To run the project locally make sure you follow the next series of steps:
 
-`https://github.com/franklinben23/city-weather-app.git`
+- Go to an empty folder in your machine.
+- paste this into your terminal: git clone https://github.com/franklinben23/city-weather-app.git
+- cd into the newly cloned app folder.
+- to install dependencies run: npm install.
+- to run app in development mode run: npm start.
+- refer to Available Scripts section for more functionalities.
 
 ## Live Demo 🔍
 
