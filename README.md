@@ -1,3 +1,37 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# City Weather App
+
+> This is an application built to check the current weather in multiple cities all around the world
+
+![Screen Shot 2022-04-13 at 17 24 38](https://user-images.githubusercontent.com/68623189/163273091-45657f86-5e98-4183-b0ab-1433e6dbbccc.png)
+
+![Screen Shot 2022-04-13 at 17 28 51](https://user-images.githubusercontent.com/68623189/163273628-2eabed5e-8ee1-465b-9e6a-ad41daab50d6.png)
+
+## Video
+
+https://user-images.githubusercontent.com/68623189/163607117-2f7eecc4-ce90-4b45-81c8-208a0cd64a89.mp4
+
+## Built With
+
+- JavaScript, HTML, CSS
+- React/Redux
+
+## Running Project Locally
+
+To run the project locally make sure you follow the next series of steps:
+
+- Go to an empty folder in your machine.
+- paste this into your terminal: git clone https://github.com/franklinben23/city-weather-app.git
+- cd into the newly cloned app folder.
+- to install dependencies run: npm install.
+- to run app in development mode run: npm start.
+- refer to Available Scripts section for more functionalities.
+
+## Live Demo 🔍
+
+To check this app's live demo click [here](https://citylist-franklin23.herokuapp.com/), then 'ctrl+shift+m' to see mobile view.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +39,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs the required dependencies in order to run the project.
 
 ### `npm start`
 
@@ -39,32 +77,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Franklin Benjamin**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [franklinben23](https://github.com/franklinben23)
+- Twitter: [@franklin23](https://twitter.com/Franklin23)
+- LinkedIn: [Franklin Benjamin](www.linkedin.com/in/franklinbenjamin)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Microverse
+- Nelson Sakwa for the inspiration for the design
+- Data provided by [Open Weather API](https://openweathermap.org/api)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.

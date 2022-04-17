@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header,
+.footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  background-color: #2b4570;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-h-cont {
+  margin-inline: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-r {
+  color: white;
+  padding-left: 15px;
+}
+
+.nav-branding {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-brand-title h2,
+.nav-branding {
+  padding-right: 10px;
+}
+
+.city-img {
+  width: 279px;
+  height: 173px;
+  border-radius: 8px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a8d0db;
+  padding-bottom: 20px;
+  min-height: 90vh;
+  overflow: scroll;
+}
+
+.filter-tit {
+  display: none;
+}
+
+.filter-span {
+  margin: 15px 0 15px 0;
+}
+
+.list-group-item {
+  width: 85%;
+  max-width: 279px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: #ffad05 2px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.city-span {
+  padding: 0;
+  margin: 0;
 }
